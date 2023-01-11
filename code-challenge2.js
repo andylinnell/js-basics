@@ -3,7 +3,9 @@
 myArray = [43, 12, 9, 76, 24, 55, 87, 44]
 
 function largestNum (array) {
+    
     let maxVal=0
+    
     for (i = 0; i < array.length ; i++) {
         if (array[i] > maxVal){
             maxVal=array[i]
@@ -23,7 +25,7 @@ function addOddAmount (anArray) {
     let oddAmount=0
     for (i = 0; i < anArray.length ; i++) 
         
-        if (anArray[i]%2){
+        if (anArray[i]%2 === 1){
             oddAmount++
     }
     return oddAmount;
