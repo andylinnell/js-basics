@@ -34,3 +34,7 @@ const squareNum = a => {
 const squareNum2 = a => a **2
 
 console.log(squareNum2(5))
+
+// example
+
+const aspectRatio = (w,h) => w / h

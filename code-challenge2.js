@@ -25,7 +25,7 @@ function addOddAmount (anArray) {
     let oddAmount=0
     for (i = 0; i < anArray.length ; i++) 
         
-        if (anArray[i]%2 === 1){
+        if (anArray[i]%2){
             oddAmount++
     }
     return oddAmount;
