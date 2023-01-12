@@ -26,9 +26,29 @@ const fullSentence = `    Hello ${name}. Your fav color is ${favColor}`; // uses
 // console.log("replace", newSentence);
 
 // SUBSTRING
+//const otherSentence = "integer";
+// console.log(otherSentence.substring(0,3));
 
-const otherSentence = "integer";
-console.log(otherSentence.substring(0,3));
+//STARTSWITH
+//console.log(otherSentence.startsWith("hello"));
+
+//INCLUDES
+// const oneMoreSentence = "Hi Danny, you are not Tony";
+// const searchTerm = "Danny"
+
+// const result = oneMoreSentence.includes(searchTerm);
+// console.log(result);
+
+// INDEXOF
+// const newWord = "papaya";
+// const searchTerm = "y";
+
+// const result = newWord.indexOf(searchTerm);
+// console.log(result);
+
+//SPLIT will come back to
+
+//
 
 
 
