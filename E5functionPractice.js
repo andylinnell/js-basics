@@ -12,5 +12,10 @@ const saidHello = () => {
 }
 //-------------------------------
 /* */
-const saidHello = param => console.log('Something')
-// re
+const saidHello2 = param => console.log('Something')
+// r
+
+
+const combinedNumber = [number1, number2]
+
+clog()

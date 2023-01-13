@@ -49,3 +49,16 @@ clog("array combined with ...", newNumberList2)
 // Math.max -------------------
 const mathmax = Math.max(...newArray1) 
 clog("math max", mathmax)
+
+//--------------
+const number1 = [1,3,5,7]
+const number2 = [2,4,6,8]
+
+
+const combinedNumber = [number1, number2]
+clog("combined array", combinedNumber)
+
+
+
+const check1 = combinedNumber[1]
+clog("check", check1);
